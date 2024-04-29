@@ -1,0 +1,101 @@
+:root {
+    /*--blue: #89cff0;*/
+    --blue: #a3cff2
+}
+
+header {
+    background-color: var(--blue);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    padding-right: 15px;
+    max-width: 100px;
+}
+
+.content {
+    display: flex;
+}
+
+.content .sidebar {
+    padding: 30px 70px;
+    max-width: 500px;
+    color: #5b5b5b;
+    box-shadow: 4px 8px 8px 0 #dadada;
+    margin-right: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #5b5b5b;
+}
+
+.hearts {
+    color: red;
+    width: 20px;
+    float: left;
+}
+
+.profile-icon {
+    width: 20px;
+
+}
+
+#displayedContent {
+    width: 65%;
+    padding: 30px;
+}
+
+.blog-post-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.blog-post-card p {
+    margin-bottom: 5px;
+}
+
+.blog-post-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.likes-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.comment-list {
+    margin-top: 15px;
+}
+.comment-list li {
+    padding: 5px 0;
+    /*margin-bottom: 5px;*/
+    display: flex;
+    border-top: 1px solid #ccc;
+
+}
+
+li + li {
+    border-top: 1px solid #ccc;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+
